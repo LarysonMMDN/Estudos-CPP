@@ -1,0 +1,59 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+*.exe
+*.dll
+*.obj
+*.lib
+*.pdb
+*.ipch
+*.pch
+*.log
+
+# Visual Studio files
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.cache
+*.tlog
+*.lastbuildstate
+
+# CMake (caso esteja usando futuramente)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Backup or temporary files
+*.tmp
+*.bak
+*.old
+*.swp
+
+# Windows thumbnail/cache files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore hidden system files
+.DS_Store
+
+# Optional - Ignore unit test results/logs
+TestResults/
+
+# Ignore folders for publish/packaging
+*.publish/
+*.nuget/
+
+# Optional - exclude compiled resources
+*.res
+*.resources
+
+# Ignore any environment-specific folders
+*.idea/
+*.vscode/
